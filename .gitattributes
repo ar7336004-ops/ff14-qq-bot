@@ -1,0 +1,11 @@
+dist/* linguist-vendored
+docs/**/*.html linguist-vendored  
+vendor/* linguist-vendored
+*.bat text eol=crlf
+
+*.yml linguist-detectable=false
+
+*.json linguist-detectable=false
+*.png binary
+node_modules/* linguist-vendored
+src/*.ts linguist-detectable
